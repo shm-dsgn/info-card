@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 body{
 	display: flex;
   	align-items: center;
@@ -37,9 +36,9 @@ body{
 
 	color: #000000;
 }
-.countryh{
+.loch{
+	margin-top: -10px;
 	margin-left:26px ;
-width: 104px;
 height: 19px;
 left: 26px;
 top: 358px;
@@ -47,8 +46,65 @@ top: 358px;
 font-family: Poppins;
 font-style: normal;
 font-weight: normal;
-font-size: 11px;
+font-size: 12px;
 line-height: 15px;
 
 color: rgba(0, 0, 0, 0.5);
+}
+.loc{
+	margin-top: -10px;
+	margin-left: 26px;
+	width: 104px;
+height: 19px;
+left: 26px;
+top: 377px;
+
+font-family: Times New Roman;
+font-style: normal;
+font-weight: normal;
+font-size: 12.5px;
+line-height: 14px;
+
+color: #000000;
+}
+.details{
+	margin-left: 26px;
+	width: 301px;
+    height: 96px;
+	left: 26px;
+	top: 417px;
+
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	line-height: 133%;
+	/* or 13px */
+
+
+	color: rgba(0, 0, 0, 0.75);
+
+}
+.rm{
+	margin-left: 26px;
+width: 68px;
+height: 26px;
+left: 26px;
+top: 513px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 11px;
+line-height: 16px;
+display: flex;
+align-items: center;
+
+color: rgba(0, 0, 0, 0.5);
+text-decoration: none;
+
+
+}
+.rm:hover{
+	text-decoration: underline;
 }
